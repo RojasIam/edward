@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+.contenedor {
+    background: rgb(217, 225, 239);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative; 
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    padding: 5%;
+}
+
+.nino {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+    border-radius: 15px;
+}
+
+#noBtn {
+    position: absolute;
+    border-radius: 15px;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none; 
+    position: fixed;
+    color: white;
+    top: 65%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 30%; 
+}
+
+.modal-content {
+    background-color: #050505;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#modalText,
+#modalVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
