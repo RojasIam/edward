@@ -16,7 +16,7 @@ yesBtn.addEventListener('click', function () {
     videoElement.src = 'hello.mp4'; 
     videoElement.autoplay = true;
     videoElement.loop = true;
-    videoElement.muted = false;
+    videoElement.muted = true;
     videoElement.style.width = '100%';
     videoElement.style.height = 'auto';
 
